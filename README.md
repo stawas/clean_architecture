@@ -21,7 +21,7 @@
       - presentation - Presentation Layer, Bloc, ViewModel, ViewController เรียกใช้ usecase จากที่นี่
         - pages - UI แต่ละหน้า เช่น Login, Home, Setting
         - widgets - เก็บ widget component เพื่อ reuse ใน UI แต่ละหน้า ที่นี่
-      - **setting** - โครงสร้างด้านในเหมือน login
+    - **setting** - โครงสร้างด้านในเหมือน login
   - generated - ใช้เก็บไฟล์ที่ generate จาก library เพื่อไม่ให้ปนกับไฟล์ที่เขียนเอง **ไม่มีก็ไม่ต้องใช้**
   - l10n - เก็บภาษาของ App เช่น ภาษาไทย ภาษาอังกฤษ
   - res - Color, Theme, Font
