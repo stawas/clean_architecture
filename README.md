@@ -7,10 +7,10 @@
 - [Flutter Clean Architecture Series](https://devmuaz.medium.com/flutter-clean-architecture-series-part-1-d2d4c2e75c47)
 
 - lip
-  - **core** - เก็บ Constants, เก็บ interface ที่ใช้ Implement มากกว่า 1 feature เช่น exception interface, failure interface, use case interface
+  - **core** - เก็บ Constants, เก็บ interface ที่ใช้ implement มากกว่า 1 feature เช่น exception interface, failure interface, use case interface
   - features - แยก Feature ในนี้
     - **login** - 1 Feature
-      - data - data Layer
+      - data - Data Layer
         - datasources - code ต่อ database, network datasource, Firebase database อยู่ที่นี่
         - models - code แปลงข้อมูลจาก datasource ให้เป็น entity เช่น แปลง json string เป็น user
         - repositories - implement repository interface ใช้เป็นทางเข้าเพื่อให้ domain มาเรียกใช้ (domain ไม่เรียกใช้ datasource โดยตรง)
