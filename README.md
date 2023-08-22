@@ -4,6 +4,8 @@
 
 ## Description
 
+- [Generate Dart File from Json Online](https://app.quicktype.io/?l=dart)
+
 - [Flutter Clean Architecture Series](https://devmuaz.medium.com/flutter-clean-architecture-series-part-1-d2d4c2e75c47)
 
 - lip
