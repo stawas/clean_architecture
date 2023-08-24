@@ -27,7 +27,7 @@
   - generated - ใช้เก็บไฟล์ที่ generate จาก library เพื่อไม่ให้ปนกับไฟล์ที่เขียนเอง **ไม่มีก็ไม่ต้องใช้**
   - l10n - เก็บภาษาของ App เช่น ภาษาไทย ภาษาอังกฤษ
   - res - Color, Theme, Font
-  - assets - image
   - util - common function เก็บ function ที่ใช้บ่อย ๆ
   - test - ใช้ test
     - fixtures - mock json ที่นี่
+- assets - image
