@@ -21,7 +21,7 @@
       - domain - Domain Layer ต้องทำงานได้กับทุก library, **การเปลี่ยน library หรือ framework ต้องไม่ส่งผลกับ Domain Layer**
         - entities - หน้าตาของ entity ควรเป็นยังไง กำหนดที่นี่ เช่น User ประกอบด้วย name,age
         - repositories - เขียน interface สำหรับติดต่อ datasource
-        - usecases - **code เพื่อทำ business logic (business logic หมายถึง เอา Method หลายๆ ตัว มาเรียกใช้เพื่อให้บรรลุจัดประสงค์ตาม requirement)** เพื่อเรียกใช้ repository ที่ implment แล้ว(อยู่ data) เพื่อทำคำสั่งที่ต้องการ เช่น เรียกข้อมูลจาก datasource โดยแยก usecase เป็นเรื่อง ๆ ไป
+        - usecases - **code เพื่อทำ business logic (business logic หมายถึง เอา Method หลายๆ ตัว มาเรียกใช้เพื่อให้บรรลุจัดประสงค์ตาม requirement)** เพื่อเรียกใช้ repository ที่ implement แล้ว(อยู่ data) เพื่อทำคำสั่งที่ต้องการ เช่น เรียกข้อมูลจาก datasource โดยแยก usecase เป็นเรื่อง ๆ ไป
       - presentation - Presentation Layer, Bloc, ViewModel, ViewController เรียกใช้ usecase จากที่นี่
         - pages - UI แต่ละหน้า เช่น Login, Home, Setting
         - widgets - เก็บ widget component เพื่อ reuse ใน UI แต่ละหน้า ที่นี่
