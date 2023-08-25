@@ -1,14 +1,10 @@
 # Flutter Clean architecture
 
-โครงสร้าง Directory สำหรับ Flutter Clean Architecture
-
 ## Description
 
-- [Generate Dart File from Json Online](https://app.quicktype.io/?l=dart)
+โครงสร้าง Directory สำหรับ Flutter Clean Architecture
 
-- [Flutter Clean Architecture Series](https://devmuaz.medium.com/flutter-clean-architecture-series-part-1-d2d4c2e75c47)
-
-- [What is the difference between repositories and usecases?](https://stackoverflow.com/questions/43055247/what-is-the-difference-between-repositories-and-usecases)
+## Structure
 
 - lip
   - core - เก็บ Constants, เก็บ interface ที่ใช้ implement มากกว่า 1 feature เช่น exception interface, failure interface, use case interface
@@ -32,3 +28,13 @@
   - test - ใช้ test
     - fixtures - mock json ที่นี่
 - assets - image
+
+## Resources
+
+- [Generate Dart File from Json Online](https://app.quicktype.io/?l=dart)
+
+- [Flutter Clean Architecture Series](https://devmuaz.medium.com/flutter-clean-architecture-series-part-1-d2d4c2e75c47)
+
+- [What is the difference between repositories and usecases?](https://stackoverflow.com/questions/43055247/what-is-the-difference-between-repositories-and-usecases)
+
+- [Error Handling](https://levelup.gitconnected.com/error-handling-in-clean-architecture-9ff159a25d4a)
