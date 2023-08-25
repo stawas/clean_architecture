@@ -38,3 +38,5 @@
 - [What is the difference between repositories and usecases?](https://stackoverflow.com/questions/43055247/what-is-the-difference-between-repositories-and-usecases)
 
 - [Error Handling](https://levelup.gitconnected.com/error-handling-in-clean-architecture-9ff159a25d4a)
+
+- [Exception Handling with try/catch and the Result type](https://codewithandrea.com/articles/flutter-exception-handling-try-catch-result-type/#:~:text=The%20Result%20type%20lets%20us,we%20handle%20both%20cases%20explicitly)
