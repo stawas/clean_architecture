@@ -43,3 +43,5 @@
 - [Error Handling](https://levelup.gitconnected.com/error-handling-in-clean-architecture-9ff159a25d4a)
 
 - [Exception Handling with try/catch and the Result type](https://codewithandrea.com/articles/flutter-exception-handling-try-catch-result-type/#:~:text=The%20Result%20type%20lets%20us,we%20handle%20both%20cases%20explicitly)
+
+- [Youtube - Flutter Clean Architecture - Learn By A Project | Full Beginner's Tutorial](https://youtu.be/7V_P6dovixg?si=8O0-tYsQmltGb4F_)
