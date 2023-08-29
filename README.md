@@ -32,6 +32,12 @@
   - themes
   - fonts
 
+## FAQ
+
+### Q: Question
+
+#### A: Answer
+
 ## Resources
 
 - [Generate Dart File from Json Online](https://app.quicktype.io/?l=dart)
