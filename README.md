@@ -8,6 +8,7 @@
 
 - lip
   - core - เก็บ Constants, เก็บ interface ที่ใช้ implement มากกว่า 1 feature เช่น exception interface, failure interface, use case interface
+    - util - common function เก็บ function ที่ใช้บ่อย ๆ
   - features - แยก Feature ในนี้
     - login - 1 Feature
       - data - Data Layer
@@ -23,11 +24,13 @@
         - widgets - เก็บ widget component เพื่อ reuse ใน UI แต่ละหน้า ที่นี่
     - setting - โครงสร้างด้านในเหมือน login
   - l10n - เก็บภาษาของ App เช่น ภาษาไทย ภาษาอังกฤษ
-  - res - Color, Theme, Font
-  - util - common function เก็บ function ที่ใช้บ่อย ๆ
   - test - ใช้ test
     - fixtures - mock json ที่นี่
-- assets - image
+- assets
+  - images
+  - colors
+  - themes
+  - fonts
 
 ## Resources
 

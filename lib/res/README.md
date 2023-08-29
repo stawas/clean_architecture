@@ -1,3 +1,0 @@
-# Res
-
-Color, Theme, Font
