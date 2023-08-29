@@ -34,9 +34,11 @@
 
 ## FAQ
 
-### Q: Question
+### Q: Form validation (eg. comment length ,email format, etc...) อยู่ตรงไหน
 
-#### A: Answer
+#### A: เป็น business rule อยู่ใน Domain ถ้า business rule นี้ใช้ทุก ๆ กรณีไม่มีข้อยกเว้น เอาใส่ไว้ใน Entity ได้ ถ้ามีข้อยกเว้น (เช่น ผู้ใช้จ่ายเงินคอมเม้นได้มากกว่า 140)ตัวอักษร ให้ใส่ใน Usecase (เช่น PremiumUserCommentUsecase, FreeUserCommentUsecase)
+
+[Ref](https://groups.google.com/g/clean-code-discussion/c/latn4x6Zo7w/m/bFwtDI1XSA8J)
 
 ## Resources
 
