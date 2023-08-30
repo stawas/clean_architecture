@@ -28,9 +28,10 @@
     - fixtures - mock json ที่นี่
 - assets
   - images
-  - colors
-  - themes
-  - fonts
+  - lib
+    - colors
+    - themes
+    - fonts
 
 ## FAQ
 
